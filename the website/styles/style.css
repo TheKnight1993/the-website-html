@@ -50,6 +50,10 @@ header a{
 header a:hover{
     background-color:#F8F8FF;
 }
+header a img {
+    position: relative;
+    top: -125px;
+}
 
 nav {
     background-color: white;
@@ -285,7 +289,7 @@ footer p a {
     width:100%;
     /*position:relative;
     top:100px;*/ 
-}
+}/*
 .hometext {
 	width: 50vw;
 	height: 35px;
@@ -299,7 +303,7 @@ footer p a {
 	font-style: italic;
 	font-variant: small-caps;
 	color:white;
-}
+}*/
 
 .smallbigimage {
     background-color: white;
