@@ -4,11 +4,13 @@
 white
 darkgray
 #616161
+black
 */
 * {
     margin: 0;
     /*background-color:white;*/
     font-family: "Raleway", sans-serif;
+    background-color: white;
 }
 
 i {
@@ -159,18 +161,18 @@ img {
 
 #textwrapper {
     width: 100%;
-    margin: auto;
+    margin: 0;
     background-color: white;
-    
 }
-.quickaccess {
+.quickaccess p {
     font-size:40px;
     width:100%;
     text-align:center;
     margin-top:65px;
     margin-bottom:100px;
 	font-variant:small-caps;
-	font-weight:bolder;
+    font-weight:bolder;
+    color: black;
 }
 article {
     width: 24%;
@@ -205,11 +207,13 @@ footer p {
     color:white;
     margin-top:20px;
     font-size:13px;
+    background-color: inherit;
 }
 footer p a {
     text-decoration: none;
     color: white;
     font-size: 20px;
+    background-color: inherit;
 }
 
 .richtlijn-nav{
