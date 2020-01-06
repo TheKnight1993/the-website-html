@@ -14,7 +14,7 @@
             <header><a href="index.html"><img src="images/logo.jpg" alt="Een Logo" /></a></header>
             <div id="navwrap">
                 <nav>
-                    <p><a href="#bottom">Contact</a></p>
+                    <p><a href="contact.html">Contact</a></p>
                     <p><a href="gebruikerstest.html">Gebruikerstest</a></p>
                     <div class="dropdown">
                       <a href="richtlijnen.html"><div class="dropbtn">Richtlijnen <i class="arrow_down"></i></div></a>
@@ -34,10 +34,39 @@
         </div>
 
         <div id="position">
-            
+            <div class="contact-main">
+                <article class="contact">
+                    <h1 id="contact-text">
+                        CONTACTEER ONS
+                    </h1>
+                    <p>
+                        Als je een vraag over de website hebt stuur dan een mail naar ons door onderstaand formulier.
+                    </p>
+                    <form action="" method="GET" class="contact-form">
+                        <div class="contact-form">
+                            <label for="name">Vul hier uw naam in: </label>
+                            <input type="text" name="name" id="name" required>
+                        </div>
+                        <div class="contact-form">
+                            <label for="email">Vul hier uw e-mail adres in: </label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="contact-form">
+                            <label for="email">Vul hier uw vraag in: </label>
+                            <input type="text" name="question" id="question" required>
+                        </div>
+                        <div class="contact-form">
+                            <input type="submit" value="Stuur!">
+                        </div>
+                    </form>
+                </article>
+            </div>
+            <div class="maps-main">
+                <iframe class="maps" src="https://maps.google.com/maps?q=stanislascollege%20westplantsoen&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+            </div>
         </div>
 
-        <footer >
+        <footer class="alt-footer">
             <p><a href="contact.html">Contact</a></p>
             <div id="bottom"></div>
             <p>&copy; 2019 Een Logo | All rights reserved</p>
