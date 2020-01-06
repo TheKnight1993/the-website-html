@@ -274,7 +274,8 @@ footer p a {
 	position:relative;
     top:120px;
 	left:51.2vw;
-	z-index:1;
+    z-index:1;
+    color: black;
 }
 .richtlijnmain .mainheader {
     font-size: 40px;
