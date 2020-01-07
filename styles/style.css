@@ -5,6 +5,7 @@ white
 darkgray
 #616161
 black
+rgba(141, 202, 255, 1)
 */
 * {
     margin: 0;
@@ -367,4 +368,67 @@ article.contact p {
 }
 .contact-form-asks{
     margin: 10px 0px 10px 0px;
+}
+textarea.contact-form-asks{
+    vertical-align: top;
+    height: 70px;width: 400px;
+    resize: none;
+}
+main.usability {
+    width:  820px;
+    margin: auto;
+}
+article.usability{
+    background-color: white;
+    padding: 0;
+    width: 800px;
+}
+article.usability h1{
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-variant: small-caps;
+}
+article.usability h2{
+    font-size: 20px;
+}
+article.usability p{
+    background-color: white;
+    color:black;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+table.usability-table{
+    border: 0;
+    border-style: solid;
+    border-color: black;
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+}
+table.usability-table th{
+    font-weight: bold;
+    background-color: rgba(141, 202, 255, 1);
+    margin: 0;
+    border: 1px solid black;
+    width: 100px;
+    line-height: 40px;
+}
+table.usability-table td{
+    background-color: white;
+    margin: 0;
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+table.usability-table td+td{
+    width: auto;
+}
+img.usability-img{
+    float: right;
+    width: 330px;
+    margin: 130px 4.2vw 0px 0px;
+    position: static;
+    overflow: hidden;
 }
