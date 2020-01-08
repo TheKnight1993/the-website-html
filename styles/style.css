@@ -262,44 +262,49 @@ footer p a {
     height:auto;
     background-color: black;
     padding: 15px;
- 	position:absolute;
+    position: relative;
+    margin-top: 50px;
 	bottom:0;
  	left:12vw;
  	width:85.8vw;
  	padding-bottom:30px;
 }
 .richtlijnmain{
-    width:200px;
-    /*float:right;*/
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
     background-color: white;
-	position:relative;
+	/*position:relative;
     top:120px;
-	left:51.2vw;
+	left:51.2vw;*/
     z-index:1;
     color: black;
 }
 .richtlijnmain .mainheader {
     font-size: 40px;
-    text-align:center;
-    width:100%;
+    text-align: center;
+    font-variant: small-caps;
     /*position:relative;
     top:100px;*/ 
-}/*
-.hometext {
-	width: 50vw;
-	height: 35px;
-	position: relative;
-	top: -88vh;
-	left:8vw;
 }
-.hometext h1 {
-	font-size: 60px;
-	font-family: "Raleway", sans-serif;
-	font-style: italic;
-	font-variant: small-caps;
-	color:white;
-}*/
-
+article.richtlijnen{
+    align-self: center;
+    padding: 0;
+    margin: 25px 0px 0px 0px;
+}
+article.richtlijnen h2{
+    text-align: center;
+}
+article.richtlijnen p{
+    background-color: white;
+    color:black;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+article.richtlijnen ol{
+    margin-bottom: 30px;
+}
 .smallbigimage {
     background-color: white;
     width: 100%;
@@ -375,8 +380,10 @@ textarea.contact-form-asks{
     resize: none;
 }
 main.usability {
-    width:  820px;
+    width:  800px;
     margin: auto;
+    display: block;
+    z-index: 1;
 }
 article.usability{
     background-color: white;
@@ -387,9 +394,11 @@ article.usability h1{
     font-size: 30px;
     margin-bottom: 40px;
     font-variant: small-caps;
+    color: black;
 }
 article.usability h2{
     font-size: 20px;
+    color: black;
 }
 article.usability p{
     background-color: white;
@@ -405,6 +414,7 @@ table.usability-table{
     table-layout: fixed;
     border-collapse: collapse;
     width: 100%;
+    color: black;
 }
 table.usability-table th{
     font-weight: bold;
@@ -431,4 +441,72 @@ img.usability-img{
     margin: 130px 4.2vw 0px 0px;
     position: static;
     overflow: hidden;
+    z-index: 0;
+}
+main.richtlijnen {
+    width:  820px;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 90px;
+    z-index: 1;
+}
+article.richtlijnen{
+    background-color: white;
+    padding: 0;
+    width: 800px;
+    color: black;
+}
+article.richtlijnen h1{
+    color: black;
+    font-variant: small-caps;
+    font-size: 30px;
+    margin: 0px 0px 30px 0px;
+}
+article.richtlijnen .maininfo{
+    color: black;
+    background-color: inherit;
+    font-size: 22px;
+    margin: 0px 0px 30px 0px;
+}
+article.richtlijnen a{
+    color: black;
+    text-decoration: none;
+}
+article.richtlijnen a:hover{
+    color: #616161;
+}
+.richtlijn-ol{
+    margin: 0px 0px 30px 0px;
+}
+.richtlijnfooter-alt {
+    clear: both;
+    height:auto;
+    background-color: black;
+    padding: 15px;
+    position: absolute;
+    margin-top: 50px;
+	bottom:0;
+ 	left:12vw;
+ 	width:85.8vw;
+ 	padding-bottom:30px;
+}
+h4 {
+    float: right;
+    display: block;
+    border-radius: 10px;
+    background-color: white;
+    line-height: 50px;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.nested-list-home{
+    list-style-type: none;
+}
+.alt-header1{
+    margin-bottom: 30px;
+}
+.alt-header2{
+    margin-top: 30px;
 }
